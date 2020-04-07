@@ -1,0 +1,7 @@
+{
+  "name": "ionIosClicksNotRecognized",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
