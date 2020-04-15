@@ -7,18 +7,31 @@
 
 <ion-content>
 
+    <!-- <ion-button (click)="routeClicked()">
+        route to subpage
+    </ion-button> -->
+
+    <ion-item>
+        <ion-label>ion select</ion-label>
+        <ion-select multiple="false" [interfaceOptions]="{ backdropDismiss: false }">
+            <ion-select-option [value]="'first option'">first option</ion-select-option>
+            <ion-select-option [value]="'second option'">second option</ion-select-option>
+        </ion-select>
+    </ion-item>
+
+
     <ion-list>
         <ion-list-header>Characters</ion-list-header>
         <ion-item>
-            <ion-label>Jon Snow</ion-label>
-            <ion-checkbox color="primary"  slot="start"></ion-checkbox>
+            <ion-label>Jon Snows</ion-label>
+            <ion-checkbox color="primary" slot="start"></ion-checkbox>
         </ion-item>
         <ion-item>
-            <ion-checkbox color="dark"  slot="start"></ion-checkbox>
+            <ion-checkbox color="dark" slot="start"></ion-checkbox>
             <ion-label>Daenerys Targaryen</ion-label>
         </ion-item>
         <ion-item>
-            <ion-checkbox  slot="start"></ion-checkbox>
+            <ion-checkbox slot="start"></ion-checkbox>
             <ion-label>Arya Stark</ion-label>
         </ion-item>
         <ion-item>
@@ -26,7 +39,7 @@
             <ion-label>Tyrion Lannister</ion-label>
         </ion-item>
         <ion-item>
-            <ion-checkbox color="danger"  slot="start"></ion-checkbox>
+            <ion-checkbox color="danger" slot="start"></ion-checkbox>
             <ion-label>Sansa Stark</ion-label>
         </ion-item>
         <ion-item>
@@ -34,23 +47,23 @@
             <ion-label>Khal Drogo</ion-label>
         </ion-item>
         <ion-item>
-            <ion-checkbox color="tertiary"  slot="start"></ion-checkbox>
+            <ion-checkbox color="tertiary" slot="start"></ion-checkbox>
             <ion-label>Cersei Lannister</ion-label>
         </ion-item>
         <ion-item>
-            <ion-checkbox color="medium"  slot="start"></ion-checkbox>
+            <ion-checkbox color="medium" slot="start"></ion-checkbox>
             <ion-label>Stannis Baratheon</ion-label>
         </ion-item>
         <ion-item>
-            <ion-checkbox color="primary"  slot="start"></ion-checkbox>
+            <ion-checkbox color="primary" slot="start"></ion-checkbox>
             <ion-label>Petyr Baelish</ion-label>
         </ion-item>
         <ion-item>
-            <ion-checkbox color="dark"  slot="start"></ion-checkbox>
+            <ion-checkbox color="dark" slot="start"></ion-checkbox>
             <ion-label>Hodor</ion-label>
         </ion-item>
         <ion-item>
-            <ion-checkbox color="secondary"  slot="start"></ion-checkbox>
+            <ion-checkbox color="secondary" slot="start"></ion-checkbox>
             <ion-label>Catelyn Stark</ion-label>
         </ion-item>
         <ion-item>
